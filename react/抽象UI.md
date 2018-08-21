@@ -180,4 +180,4 @@ Reconciler从一个风风火火的意气少年变成了一个小心翼翼的中�
 
 因为Reconciler现在是可以打断的，也就是说render前的生命周期钩子有可能被执行多次，而且它的表现是没办法预测的，因为是否被打断要依据当时的情况。
 
-这也就是`componentWillMount`、`componentWillReceiveProps`和`componentWillUpdate`生命周期钩子要被逐步替换掉的原因。
+这也就是componentWillMount、componentWillReceiveProps和componentWillUpdate生命周期钩子要被逐步替换掉的原因。
