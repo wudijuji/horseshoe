@@ -1,7 +1,7 @@
 > 代号**马蹄铁**。以专题为单位的学习。
 
 ```
-个人博客入口：https:veedrin.com
+个人博客入口：https://veedrin.com
 ```
 
 ## React专题
