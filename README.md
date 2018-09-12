@@ -4,6 +4,16 @@
 个人博客入口：https://veedrin.com
 ```
 
+## Redux专题
+
+[考古](https://github.com/veedrin/horseshoe/blob/master/redux/考古.md)
+
+[实用](https://github.com/veedrin/horseshoe/blob/master/redux/实用.md)
+
+[中间件](https://github.com/veedrin/horseshoe/blob/master/redux/中间件.md)
+
+[时间旅行](https://github.com/veedrin/horseshoe/blob/master/redux/时间旅行.md)
+
 ## React专题
 
 [什么是UI](https://github.com/veedrin/horseshoe/blob/master/react/什么是UI.md)
@@ -25,5 +35,5 @@
 [抽象UI](https://github.com/veedrin/horseshoe/blob/master/react/抽象UI.md)
 
 ```
-下期专题预告: Redux专题
+下期专题预告: Regex专题
 ```
