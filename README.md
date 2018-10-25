@@ -1,8 +1,18 @@
 > 代号**马蹄铁**。以专题为单位的学习。
 
+下期专题预告: Chrome专题
+
 ```
 个人博客入口：https://veedrin.com
 ```
+
+## Regex专题
+
+👉 [语法](https://github.com/veedrin/horseshoe/blob/master/regex/语法.md)
+
+👉 [方法](https://github.com/veedrin/horseshoe/blob/master/regex/方法.md)
+
+👉 [引擎](https://github.com/veedrin/horseshoe/blob/master/regex/引擎.md)
 
 ## Redux专题
 
@@ -33,7 +43,3 @@
 👉 [操作DOM](https://github.com/veedrin/horseshoe/blob/master/react/操作DOM.md)
 
 👉 [抽象UI](https://github.com/veedrin/horseshoe/blob/master/react/抽象UI.md)
-
-```
-下期专题预告: Regex专题
-```
