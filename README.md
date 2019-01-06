@@ -1,12 +1,40 @@
 > 代号**马蹄铁**。以专题为单位的学习。
 
-下期专题预告: Git专题
+下期专题预告: Mobx专题
 
 ```
 个人博客入口：https://veedrin.com
 
 如果觉得对你有帮助，欢迎点Star或者来我的博客亲口告诉我
 ```
+
+#### 2019-01 | Git专题
+
+🎖 [add](https://github.com/veedrin/horseshoe/blob/master/git/add.md)
+
+🎖 [commit](https://github.com/veedrin/horseshoe/blob/master/git/commit.md)
+
+🎖 [branch](https://github.com/veedrin/horseshoe/blob/master/git/branch.md)
+
+🎖 [checkout](https://github.com/veedrin/horseshoe/blob/master/git/checkout.md)
+
+🎖 [merge](https://github.com/veedrin/horseshoe/blob/master/git/merge.md)
+
+🎖 [rebase](https://github.com/veedrin/horseshoe/blob/master/git/rebase.md)
+
+🎖 [reset](https://github.com/veedrin/horseshoe/blob/master/git/reset.md)
+
+🎖 [revert](https://github.com/veedrin/horseshoe/blob/master/git/revert.md)
+
+🎖 [stash](https://github.com/veedrin/horseshoe/blob/master/git/stash.md)
+
+🎖 [view](https://github.com/veedrin/horseshoe/blob/master/git/view.md)
+
+🎖 [position](https://github.com/veedrin/horseshoe/blob/master/git/position.md)
+
+🎖 [tag](https://github.com/veedrin/horseshoe/blob/master/git/tag.md)
+
+🎖 [remote](https://github.com/veedrin/horseshoe/blob/master/git/remote.md)
 
 #### 2018-10 | Regex专题
 
