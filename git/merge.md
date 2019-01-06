@@ -52,7 +52,7 @@ Merge branch 'dev'
 ```
 C0 -- C1 -- C2 -- C4(HEAD -> master)(merge commit)
        \          /
-       	\        /
+        \        /
           C3(dev)
 ```
 
