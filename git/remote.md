@@ -297,4 +297,3 @@ $ git remote
 
 origin
 ```
-

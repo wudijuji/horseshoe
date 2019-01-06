@@ -163,4 +163,3 @@ To github.com:veedrin/git.git
 ```
 $ git push origin --tags
 ```
-
