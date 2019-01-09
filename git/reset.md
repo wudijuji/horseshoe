@@ -209,9 +209,9 @@ index 4a77268..fde8dcd 100644
 
 `banana`就是重置前的commit内容与重置后的commit内容的diff，可以看到，它已经在暂存区了。
 
-## 文件暂存区改动撤回工作区
+## 文件暂存区内容撤回工作区
 
-`git reset`命令后面也可以跟文件名，它的作用是将暂存区的改动重置为工作区的改动，是`git add -- <file>`的反向操作。
+`git reset`命令后面也可以跟文件名，它的作用是将暂存区的内容重置为工作区的内容，是`git add -- <file>`的反向操作。
 
 `git reset -- <file>`命令是`git reset HEAD --mixed -- <file>`的简写。在操作文件时，参数只有默认的`--mixed`一种。
 
