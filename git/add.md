@@ -116,7 +116,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 针对已经加入暂存区的文件，要将文件改动加入暂存区，还有一个命令。
 
 ```
-$ git add -a
+$ git add -u
 ```
 
 它和`git add -A`命令的区别在于，它只能将已加入暂存区文件的改动放入暂存区，而`git add -A`通吃两种情况。

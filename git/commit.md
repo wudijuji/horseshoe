@@ -44,7 +44,7 @@ $ git commit -m "commit for nothing"
 $ git commit -am "commit for nothing"
 ```
 
-但是要注意，和`git add -a`命令一样，未跟踪的文件是无法提交上去的。
+但是要注意，和`git add -u`命令一样，未跟踪的文件是无法提交上去的。
 
 ## 重写提交
 
