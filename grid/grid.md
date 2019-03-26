@@ -471,6 +471,18 @@
 }
 ```
 
+## place-items
+
+这是一个集合属性，可以同时声明`align-items`和`justify-items`。
+
+如果省略第二个参数，则第二个参数会采用第一个值。
+
+```css
+.container {
+    place-items: <align-items> <justify-items>;
+}
+```
+
 ## justify-content
 
 这个属性声明的是栅格系统相对于栅格容器的水平对齐方式。
@@ -510,6 +522,18 @@
 ```
 
 这里关于`stretch`的处理是一样的。
+
+## place-content
+
+这是一个集合属性，可以同时声明`align-content`和`justify-content`。
+
+如果省略第二个参数，则第二个参数会采用第一个值。
+
+```css
+.container {
+    place-content: <align-content> <justify-content>;
+}
+```
 
 ## grid-auto-[columns|rows]
 
@@ -788,6 +812,18 @@
 ```css
 .item {
     align-self: stretch(default) | start | end | center;
+}
+```
+
+## place-self
+
+这是一个集合属性，可以同时声明`align-self`和`justify-self`。
+
+如果省略第二个参数，则第二个参数会采用第一个值。
+
+```css
+.item {
+    place-self: <align-self> <justify-self>;
 }
 ```
 
