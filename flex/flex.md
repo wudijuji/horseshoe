@@ -40,7 +40,7 @@ Flexbox也是这个道理。它是一个一维布局模型，我们就要找到�
 
 直接看图。
 
-![illustration](https://raw.githubusercontent.com/veedrin/horseshoe/master/flex/image/02.png)
+![illustration](/flex/image/02.png)
 
 ## 最小长度
 
@@ -64,7 +64,7 @@ Flexbox也是这个道理。它是一个一维布局模型，我们就要找到�
 }
 ```
 
-![illustration](https://raw.githubusercontent.com/veedrin/horseshoe/master/flex/image/03.png)
+![illustration](/flex/image/03.png)
 
 两个弹性项目的长度加起来的和已经超过了弹性容器，所以不得不挤压。挤压的比率咱们先不考虑，咱们先观察挤压的方式。有没有发现红色部分都有不同程度的收缩，但是黄色部分却岿然不动？
 
@@ -91,7 +91,7 @@ Flexbox也是这个道理。它是一个一维布局模型，我们就要找到�
 }
 ```
 
-![illustration](https://raw.githubusercontent.com/veedrin/horseshoe/master/flex/image/04.png)
+![illustration](/flex/image/04.png)
 
 这下是不是很清楚了？第一个弹性项目的`content`长度已经变成了0；第二个也好不到哪去，因为盒子长度都被`padding`占据，它的`content`长度实际上也是0。都把人家挤破产了，却丝毫不敢动其他的属性，势利眼无疑了。
 
@@ -118,17 +118,17 @@ Flexbox也是这个道理。它是一个一维布局模型，我们就要找到�
 }
 ```
 
-![illustration](https://raw.githubusercontent.com/veedrin/horseshoe/master/flex/image/05.png)
+![illustration](/flex/image/05.png)
 
 我在第二个弹性项目中放了一个长`500px`的元素，结果你猜怎么着，弹性项目的`padding`竟然有一部分和元素重合了。连子元素都未能幸免。
 
 一般来说盒子模型的`content`都是被文字撑开的，我们最后再来看看文字的情况。
 
-![illustration](https://raw.githubusercontent.com/veedrin/horseshoe/master/flex/image/06.png)
+![illustration](/flex/image/06.png)
 
 在弹性项目显式设置了宽度的情况下，弹性项目并不能完全包裹文字。也就是说文字也帮不了它，既然它声明了宽度，文字撑开的长度最多不能超过显式声明的宽度，超出的文字只能溢出。
 
-![illustration](https://raw.githubusercontent.com/veedrin/horseshoe/master/flex/image/07.png)
+![illustration](/flex/image/07.png)
 
 而没有显式声明宽度的情况，文字的宽度就是弹性项目盒子模型的`content`，Flexbox也拿它没办法。
 
@@ -161,7 +161,7 @@ Flexbox也是这个道理。它是一个一维布局模型，我们就要找到�
 }
 ```
 
-![illustration](https://raw.githubusercontent.com/veedrin/horseshoe/master/flex/image/08.png)
+![illustration](/flex/image/08.png)
 
 ## flex-wrap
 
@@ -178,7 +178,7 @@ Flexbox也是这个道理。它是一个一维布局模型，我们就要找到�
 }
 ```
 
-![illustration](https://raw.githubusercontent.com/veedrin/horseshoe/master/flex/image/09.png)
+![illustration](/flex/image/09.png)
 
 如果把`flex-direction`和`flex-wrap`结合起来，大家会不会懵逼？上上下下左左右右。其实不管它怎么reverse，`flex-direction`反转的是主轴的方向，`flex-wrap`反转的交叉轴的方向。
 
@@ -208,7 +208,7 @@ Flexbox也是这个道理。它是一个一维布局模型，我们就要找到�
 }
 ```
 
-![illustration](https://raw.githubusercontent.com/veedrin/horseshoe/master/flex/image/10.png)
+![illustration](/flex/image/10.png)
 
 `flex-start`、`flex-end`和`center`非常表意，咱们按下不表。
 
@@ -228,7 +228,7 @@ Flexbox也是这个道理。它是一个一维布局模型，我们就要找到�
 }
 ```
 
-![illustration](https://raw.githubusercontent.com/veedrin/horseshoe/master/flex/image/11.png)
+![illustration](/flex/image/11.png)
 
 这里有一个问题，如果弹性项目显式的声明了高度，那`stretch`将不再起作用。所以这里的例子，我往项目中加了一个子元素，把高度显式的声明在子元素上，这样项目的高度就是被撑开的。
 
@@ -252,7 +252,7 @@ Flexbox也是这个道理。它是一个一维布局模型，我们就要找到�
 }
 ```
 
-![illustration](https://raw.githubusercontent.com/veedrin/horseshoe/master/flex/image/12.png)
+![illustration](/flex/image/12.png)
 
 这里也一样，如果弹性项目显式的声明了高度，那`stretch`将不再起作用。
 
@@ -296,7 +296,7 @@ Flexbox也是这个道理。它是一个一维布局模型，我们就要找到�
 }
 ```
 
-![illustration](https://raw.githubusercontent.com/veedrin/horseshoe/master/flex/image/13.png)
+![illustration](/flex/image/13.png)
 
 ## flex-grow
 
@@ -310,7 +310,7 @@ Flexbox也是这个道理。它是一个一维布局模型，我们就要找到�
 }
 ```
 
-![illustration](https://raw.githubusercontent.com/veedrin/horseshoe/master/flex/image/14.png)
+![illustration](/flex/image/14.png)
 
 首先解释一下什么是富余空间：它是在弹性容器规则和弹性项目显式宽度或者内容的共同约束下，行内剩余的水平空间。比如图例中除去`margin`、`padding`的黄色部分。
 
@@ -336,7 +336,7 @@ Flexbox也是这个道理。它是一个一维布局模型，我们就要找到�
 }
 ```
 
-![illustration](https://raw.githubusercontent.com/veedrin/horseshoe/master/flex/image/15.png)
+![illustration](/flex/image/15.png)
 
 同样，解释一下什么是负债空间：它是在弹性容器规则和弹性项目显式宽度或者内容的共同约束下，行内短缺的水平空间。此时如果不换行的话，就要求挤压弹性项目的长度。
 
@@ -369,7 +369,7 @@ Flexbox也是这个道理。它是一个一维布局模型，我们就要找到�
 }
 ```
 
-![illustration](https://raw.githubusercontent.com/veedrin/horseshoe/master/flex/image/16.png)
+![illustration](/flex/image/16.png)
 
 如果`width`和`flex-basis`都显式的声明了一个非`auto`的值，那么`flex-basis`的优先级更高。否则，哪个显式声明了就以哪个为准。
 
@@ -401,7 +401,7 @@ Flexbox也是这个道理。它是一个一维布局模型，我们就要找到�
 }
 ```
 
-![illustration](https://raw.githubusercontent.com/veedrin/horseshoe/master/flex/image/17.png)
+![illustration](/flex/image/17.png)
 
 除了`auto`之外，`align-self`的属性值和`align-items`的属性值是一样的，效果也一样。
 
