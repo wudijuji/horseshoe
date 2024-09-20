@@ -12,7 +12,7 @@ Flexbox叫弹性盒模型，它的使用场景主要是屏幕自适应布局和�
 
 直接看图。
 
-![illustration](https://raw.githubusercontent.com/veedrin/horseshoe/master/flex/image/01.png)
+![illustration](/image/01.png)
 
 可以看到，Flexbox有`行`的概念，却没有`列`的概念。这导致它的表达能力是受限的。
 
